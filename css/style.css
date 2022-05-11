@@ -1,0 +1,153 @@
+.font-jost {
+    font-family: 'Jost', sans-serif;
+}
+
+.font-muli {
+    font-family: 'Mulish', sans-serif;
+}
+
+.navbar-color {
+    background-color: white !important;
+}
+
+.navbar-button {
+    display: none;
+}
+
+.background-carouse1 {
+    background-image: url(../img/rev-1-img1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+.background-carouse2 {
+    background-image: url(../img/rev-1-img2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+.background-carouse3 {
+    background-image: url(../img/rev-1-img3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+.text-color {
+    color: white;
+}
+
+.carousel-button {
+    background-color: rgb(42, 59, 183);
+    border: rgb(42, 59, 183);
+}
+
+.carousel-button:hover {
+    background-color: #1a0af5 !important;
+    border: #1a0af5 !important;
+}
+
+.element-yellow {
+    background-color: #fd0;
+    width: 40px;
+    height: 40px;
+}
+
+.element-size {
+    font-size: 14px;
+}
+
+.color-team {
+    background-color: #f7f8f9;
+}
+
+.img-yellow {
+    background-color: yellow;
+    width: 315px;
+    height: 315px;
+    margin-top: -17rem;
+    margin-right: -11rem;
+}
+
+.img-red {
+    background-color: red;
+    width: 315px;
+    height: 315px;
+    margin-top: -17rem;
+    margin-right: -11rem;
+}
+
+.my-img {
+    margin-top: 20px;
+}
+
+.my-position {
+    position: relative;
+}
+
+.my-b-m {
+    bottom: 10px;
+}
+
+.font-new-york {
+    color: red;
+    font-size: 13px;
+}
+
+.prova {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-carosello {
+    background-color: blue;
+}
+
+@media (min-width: 768px) {
+    #teams {
+        text-align: start!important;
+    }
+    #spazio {
+        margin-left: 25%;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-button {
+        display: initial;
+        background-color: rgb(42, 59, 183);
+        border: rgb(42, 59, 183);
+    }
+    .navbar-button:hover {
+        background-color: #1a0af5 !important;
+        border: #1a0af5 !important;
+    }
+    .text-size {
+        font-size: 70px;
+    }
+    .my-img {
+        width: 500px;
+        height: 500px;
+    }
+    .img-yellow {
+        width: 515px;
+        height: 515px;
+        margin-top: -490px;
+    }
+    .img-red {
+        width: 515px;
+        height: 515px;
+        margin-top: -490px;
+    }
+    #teams {
+        font-size: 43px;
+        text-align: start !important;
+    }
+    #spazio {
+        margin: 0%;
+    }
+}
